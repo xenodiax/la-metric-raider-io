@@ -1,5 +1,5 @@
 body {
-    background: #efefef;
+    background: #fff;
     margin: 0 auto;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,14 +12,20 @@ body {
     width: 50%;
     padding: 3% 0;
 }
+.icon img {
+    width: 100%;
+    max-width: 610px;
+}
 .page {
     margin: 0 auto;
+    background: #efefef;    
+}
+.page .wrapper {
     width: 50%;
     padding: 3%;
-    background: #fff;    
+    margin: 0 auto;
 }
 .footer {
-    
     margin: 0 auto;
     width: 50%;
     padding: 3%;
